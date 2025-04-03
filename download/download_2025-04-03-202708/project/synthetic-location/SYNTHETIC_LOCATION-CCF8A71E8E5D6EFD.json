@@ -1,0 +1,26 @@
+{
+  "autoUpdateChromium": true,
+  "availabilityLocationOutage": false,
+  "availabilityNodeOutage": false,
+  "availabilityNotificationsEnabled": true,
+  "city": "Detroit",
+  "countryCode": "US",
+  "countryName": null,
+  "deploymentType": "STANDARD",
+  "latitude": 42.3673,
+  "locationNodeOutageDelayInMinutes": 3,
+  "longitude": -83.1329,
+  "maxActiveGateCount": null,
+  "minActiveGateCount": null,
+  "namExecutionSupported": false,
+  "name": "{{.name}}",
+  "nodeSize": "UNSUPPORTED",
+  "nodes": [
+    "622005096"
+  ],
+  "regionCode": "MI",
+  "regionName": null,
+  "status": "ENABLED",
+  "type": "PRIVATE",
+  "useNewKubernetesVersion": false
+}

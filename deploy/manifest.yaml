@@ -1,0 +1,20 @@
+manifestVersion: "1.0"
+projects:
+  - name: demo1
+environmentGroups:
+  - name: default
+    environments:
+      - name: project
+        url:
+          value: https://mcy56832.apps.dynatrace.com
+        auth:
+          token:
+            type: environment
+            name: API_TOKEN_DT
+          oAuth:
+            clientId:
+              type: environment
+              name: CLIENT_ID_DT
+            clientSecret:
+              type: environment
+              name: CLIENT_SECRET_DT

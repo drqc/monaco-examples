@@ -1,0 +1,8 @@
+configs:
+- id: SYNTHETIC_LOCATION-CCF8A71E8E5D6EFD
+  config:
+    name: ACE-BOX
+    template: SYNTHETIC_LOCATION-CCF8A71E8E5D6EFD.json
+    skip: false
+  type:
+    api: synthetic-location

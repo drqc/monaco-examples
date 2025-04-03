@@ -1,0 +1,36 @@
+configs:
+- id: 73a806db-2177-41bf-ad65-f1f8916d3f5c
+  config:
+    name: Astroshop loadtest overview
+    parameters:
+      extractedIDs:
+        type: value
+        value:
+          id_3420b2ac_f1cf_4b24_b62d_61ba1ba8ed05: 3420b2ac-f1cf-4b24-b62d-61ba1ba8ed05
+          id_CLOUD_APPLICATION_NAMESPACE_157357982500C767: CLOUD_APPLICATION_NAMESPACE-157357982500C767
+          id_CLOUD_APPLICATION_NAMESPACE_AB954B1B3500CF65: CLOUD_APPLICATION_NAMESPACE-AB954B1B3500CF65
+          id_SYNTHETIC_TEST_7DA248BDCDC7D1BA: SYNTHETIC_TEST-7DA248BDCDC7D1BA
+    template: 73a806db-2177-41bf-ad65-f1f8916d3f5c.json
+    skip: false
+    originObjectId: 73a806db-2177-41bf-ad65-f1f8916d3f5c
+  type:
+    document:
+      kind: dashboard
+- id: 92c27c8c-ea0b-4715-b081-0be7c33140b7
+  config:
+    name: Perform2025 - HOT - Advanced Diagnostics
+    template: 92c27c8c-ea0b-4715-b081-0be7c33140b7.json
+    skip: false
+    originObjectId: 92c27c8c-ea0b-4715-b081-0be7c33140b7
+  type:
+    document:
+      kind: dashboard
+- id: c6b1aebb-d263-4245-835a-699450070d56
+  config:
+    name: Traces on Grail
+    template: c6b1aebb-d263-4245-835a-699450070d56.json
+    skip: false
+    originObjectId: c6b1aebb-d263-4245-835a-699450070d56
+  type:
+    document:
+      kind: dashboard
